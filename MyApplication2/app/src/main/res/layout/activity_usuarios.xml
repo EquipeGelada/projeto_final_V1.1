@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/textColorPrimary">
+
+    <EditText
+        android:id="@+id/etNomeUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Usuário"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/textColorPrimary"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:id="@+id/etEmailUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="E-mail do Usuário"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/textColorPrimary"
+        android:layout_marginBottom="12dp"/>
+    <Button
+        android:id="@+id/btnSalvarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Salvar Usuário"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnRemoverUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Remover Usuário"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/rounded_button"/>
+</LinearLayout>
